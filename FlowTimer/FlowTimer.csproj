@@ -6,10 +6,17 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>graphics\icon.ico</ApplicationIcon>
     <PackageIcon>icon.png</PackageIcon>
+    <StartupObject>FlowTimer.Program</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="graphics\icon.ico" />
+    <Content Include="graphics\icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -38,6 +45,30 @@
     <None Update="graphics\icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
+    </None>
+    <None Update="graphics\imgPause.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="graphics\imgPlay.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="graphics\imgReset.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="graphics\imgStop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="sounds\bing.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="sounds\bong.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="sounds\bong_short.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="sounds\break_fin.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 

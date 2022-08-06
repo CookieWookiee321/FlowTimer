@@ -22,8 +22,6 @@ namespace FlowTimer {
       tbxTimeEnlapsed.Text = "00:00:00";
       tbxBreak.Text = "00:00:00";
 
-      this.Icon = Icon.ExtractAssociatedIcon("graphics/icon.ico");
-
       soundStartLoc = $"sounds/bing.wav";
       soundBreakLoc = $"sounds/bong.wav";
       soundEndLoc = $"sounds/break_fin.wav";
@@ -167,8 +165,8 @@ namespace FlowTimer {
 
     private void rulesToolStripMenuItem_Click(object sender, EventArgs e) {
       MessageBox.Show(
-          @"This app awards you 20 minutes of break time for every 90 minutes of work.
-                This amount will scale up and down, depending on how long you work for.",
+          "This app awards you 20 minutes of break time for every 90 minutes of work.\n" +
+                "This amount will scale up and down, depending on how long you work for.",
           "How to Use",
           MessageBoxButtons.OK,
           MessageBoxIcon.Information
