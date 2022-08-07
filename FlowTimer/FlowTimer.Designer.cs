@@ -46,7 +46,6 @@ namespace FlowTimer
       this.showBreakTimerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
       this.alwaysOnTopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
       this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-      this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
       this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
       this.menuStrip1.SuspendLayout();
       this.tableLayoutPanel1.SuspendLayout();
@@ -157,11 +156,10 @@ namespace FlowTimer
       this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
       this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem,
-            this.aboutToolStripMenuItem1});
+            this.helpToolStripMenuItem});
       this.menuStrip1.Location = new System.Drawing.Point(0, 0);
       this.menuStrip1.Name = "menuStrip1";
-      this.menuStrip1.Size = new System.Drawing.Size(340, 26);
+      this.menuStrip1.Size = new System.Drawing.Size(340, 28);
       this.menuStrip1.TabIndex = 6;
       this.menuStrip1.Text = "menuStrip1";
       // 
@@ -173,7 +171,7 @@ namespace FlowTimer
             this.showBreakTimerToolStripMenuItem,
             this.alwaysOnTopToolStripMenuItem});
       this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-      this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 22);
+      this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
       this.fileToolStripMenuItem.Text = "Settings";
       // 
       // showBreakTimerToolStripMenuItem
@@ -181,7 +179,7 @@ namespace FlowTimer
       this.showBreakTimerToolStripMenuItem.Checked = true;
       this.showBreakTimerToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
       this.showBreakTimerToolStripMenuItem.Name = "showBreakTimerToolStripMenuItem";
-      this.showBreakTimerToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
+      this.showBreakTimerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
       this.showBreakTimerToolStripMenuItem.Text = "Show Break Timer";
       this.showBreakTimerToolStripMenuItem.CheckedChanged += new System.EventHandler(this.chbxShowBreak_CheckedChanged);
       this.showBreakTimerToolStripMenuItem.Click += new System.EventHandler(this.showBreakTimerToolStripMenuItem_Click);
@@ -189,23 +187,17 @@ namespace FlowTimer
       // alwaysOnTopToolStripMenuItem
       // 
       this.alwaysOnTopToolStripMenuItem.Name = "alwaysOnTopToolStripMenuItem";
-      this.alwaysOnTopToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
+      this.alwaysOnTopToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
       this.alwaysOnTopToolStripMenuItem.Text = "Always On Top";
       this.alwaysOnTopToolStripMenuItem.CheckedChanged += new System.EventHandler(this.alwaysOnTopToolStripMenuItem_CheckedChanged);
+      this.alwaysOnTopToolStripMenuItem.Click += new System.EventHandler(this.alwaysOnTopToolStripMenuItem_Click);
       // 
       // helpToolStripMenuItem
       // 
       this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-      this.helpToolStripMenuItem.Size = new System.Drawing.Size(51, 22);
+      this.helpToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
       this.helpToolStripMenuItem.Text = "Help";
       this.helpToolStripMenuItem.Click += new System.EventHandler(this.rulesToolStripMenuItem_Click);
-      // 
-      // aboutToolStripMenuItem1
-      // 
-      this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
-      this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(60, 22);
-      this.aboutToolStripMenuItem1.Text = "About";
-      this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.rulesToolStripMenuItem_Click);
       // 
       // tableLayoutPanel1
       // 
@@ -269,7 +261,6 @@ namespace FlowTimer
     private System.Windows.Forms.ToolStripMenuItem showBreakTimerToolStripMenuItem;
     private System.Windows.Forms.ToolStripMenuItem alwaysOnTopToolStripMenuItem;
     private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-    private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
     private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
   }
 }

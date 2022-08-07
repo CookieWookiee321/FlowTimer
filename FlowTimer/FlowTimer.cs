@@ -208,7 +208,12 @@ namespace FlowTimer {
     }
 
     private void alwaysOnTopToolStripMenuItem_CheckedChanged(object sender, EventArgs e) {
-
+      if (alwaysOnTopToolStripMenuItem.Checked) {
+        this.TopMost = true;
+      }
+      else {
+        this.TopMost = false;
+      }
     }
 
     private void showBreakTimerToolStripMenuItem_Click(object sender, EventArgs e) {
@@ -217,6 +222,15 @@ namespace FlowTimer {
       }
       else {
         showBreakTimerToolStripMenuItem.Checked = true;
+      }
+    }
+
+    private void alwaysOnTopToolStripMenuItem_Click(object sender, EventArgs e) {
+      if (alwaysOnTopToolStripMenuItem.Checked) {
+        alwaysOnTopToolStripMenuItem.Checked = false;
+      }
+      else {
+        alwaysOnTopToolStripMenuItem.Checked = true;
       }
     }
   }
