@@ -159,7 +159,7 @@ namespace FlowTimer
             this.helpToolStripMenuItem});
       this.menuStrip1.Location = new System.Drawing.Point(0, 0);
       this.menuStrip1.Name = "menuStrip1";
-      this.menuStrip1.Size = new System.Drawing.Size(340, 28);
+      this.menuStrip1.Size = new System.Drawing.Size(340, 26);
       this.menuStrip1.TabIndex = 6;
       this.menuStrip1.Text = "menuStrip1";
       // 
@@ -171,7 +171,7 @@ namespace FlowTimer
             this.showBreakTimerToolStripMenuItem,
             this.alwaysOnTopToolStripMenuItem});
       this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-      this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+      this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 22);
       this.fileToolStripMenuItem.Text = "Settings";
       // 
       // showBreakTimerToolStripMenuItem
@@ -179,7 +179,7 @@ namespace FlowTimer
       this.showBreakTimerToolStripMenuItem.Checked = true;
       this.showBreakTimerToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
       this.showBreakTimerToolStripMenuItem.Name = "showBreakTimerToolStripMenuItem";
-      this.showBreakTimerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+      this.showBreakTimerToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
       this.showBreakTimerToolStripMenuItem.Text = "Show Break Timer";
       this.showBreakTimerToolStripMenuItem.CheckedChanged += new System.EventHandler(this.chbxShowBreak_CheckedChanged);
       this.showBreakTimerToolStripMenuItem.Click += new System.EventHandler(this.showBreakTimerToolStripMenuItem_Click);
@@ -187,7 +187,7 @@ namespace FlowTimer
       // alwaysOnTopToolStripMenuItem
       // 
       this.alwaysOnTopToolStripMenuItem.Name = "alwaysOnTopToolStripMenuItem";
-      this.alwaysOnTopToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+      this.alwaysOnTopToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
       this.alwaysOnTopToolStripMenuItem.Text = "Always On Top";
       this.alwaysOnTopToolStripMenuItem.CheckedChanged += new System.EventHandler(this.alwaysOnTopToolStripMenuItem_CheckedChanged);
       this.alwaysOnTopToolStripMenuItem.Click += new System.EventHandler(this.alwaysOnTopToolStripMenuItem_Click);
@@ -195,7 +195,7 @@ namespace FlowTimer
       // helpToolStripMenuItem
       // 
       this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-      this.helpToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
+      this.helpToolStripMenuItem.Size = new System.Drawing.Size(51, 22);
       this.helpToolStripMenuItem.Text = "Help";
       this.helpToolStripMenuItem.Click += new System.EventHandler(this.rulesToolStripMenuItem_Click);
       // 

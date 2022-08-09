@@ -165,8 +165,9 @@ namespace FlowTimer {
 
     private void rulesToolStripMenuItem_Click(object sender, EventArgs e) {
       MessageBox.Show(
-          "This app awards you 20 minutes of break time for every 90 minutes of work.\n" +
-                "This amount will scale up and down, depending on how long you work for.",
+          "This app awards you 20 minutes of break time for every 90 minutes of work. " +
+                "This amount will scale up and down, depending on how long you work for.\n\n" +
+                "Toolbar icon made my Michael Cullen. All other icons sourced from www.flaticon.com",
           "How to Use",
           MessageBoxButtons.OK,
           MessageBoxIcon.Information
